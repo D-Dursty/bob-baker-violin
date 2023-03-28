@@ -1,38 +1,21 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@200;400;800&family=Bebas+Neue&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300&family=Mukta+Vaani:wght@200;300;500&family=Murecho:wght@200;300;400&family=Raleway:ital,wght@0,200;0,300;0,500;1,200&display=swap');
+
+.backgroundImg {
+    background-image: url('./utilities/bob-background.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative; 
+    height: 80rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@media screen and (min-width: 315px) and (max-width: 3000px){
+    .backgroundImg {
+    background-image: url('./utilities/bob-background.JPG');
+    background-repeat: no-repeat;
+    position: relative; 
+    height: auto;
+    padding-bottom: 40px;
+ 
+}
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

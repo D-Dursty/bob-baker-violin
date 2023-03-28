@@ -1,0 +1,184 @@
+.vidContainer {
+    display: grid;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.vidContainerOne {
+    margin-top: 5%;
+    width: 100%;
+}
+
+.vidOne{
+    width: 100%;
+    height: 200%;
+}
+
+.vidContainerTwo {
+    margin-top: 40%;
+}
+
+.vidTwoTwo{
+    width: 100%;
+    height: 200%;
+}
+/* All phone screens */
+@media screen and (min-width: 315px) and (max-width: 767px){
+    .vidContainer {
+        display: grid;
+        width: 100%;
+        margin-left: 0%;
+        padding-bottom: 240px;
+    }
+    
+    .vidContainerOne {
+        margin-top: 5%;
+        width: 95%;
+        margin-left: 2.5%;
+    }
+    
+    .vidOne{
+        width: 100%;
+        height: 150%;
+    }
+    
+    .vidContainerTwo {
+        margin-top: 30%;
+        width: 100%;
+        margin-left: 2.5%;
+    }
+    
+    .vidTwoTwo{
+        width: 95%;
+        height: 150%;
+    }
+    
+}
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .vidContainer {
+        display: grid;
+        width: 70%;
+        margin-left: 0%;
+        padding-bottom: 240px;
+    }
+    
+    .vidContainerOne {
+        margin-top: 5%;
+        width: 95%;
+        margin-left: 22%;
+    }
+    
+    .vidOne{
+        width: 100%;
+        height: 200%;
+    }
+    
+    .vidContainerTwo {
+        margin-top: 35%;
+        width: 100%;
+        margin-left: 22%;
+    }
+    
+    .vidTwoTwo{
+        width: 95%;
+        height: 200%;
+    }
+    
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px){
+    .vidContainer {
+        display: grid;
+        width: 70%;
+        margin-left: 0%;
+        padding-bottom: 240px;
+    }
+    
+    .vidContainerOne {
+        margin-top: 5%;
+        width: 95%;
+        margin-left: 22%;
+    }
+    
+    .vidOne{
+        width: 100%;
+        height: 250%;
+    }
+    
+    .vidContainerTwo {
+        margin-top: 40%;
+        width: 100%;
+        margin-left: 22%;
+    }
+    
+    .vidTwoTwo{
+        width: 95%;
+        height: 250%;
+    }
+    
+}
+/* Large Laptop */
+@media screen and (min-width: 1440px) and (max-width: 2559px){
+    .vidContainer {
+        display: grid;
+        width: 50%;
+        margin-left: 15%;
+        padding-bottom: 400px;
+    }
+    
+    .vidContainerOne {
+        margin-top: 5%;
+        width: 95%;
+        margin-left: 22%;
+    }
+    
+    .vidOne{
+        width: 100%;
+        height: 300%;
+    }
+    
+    .vidContainerTwo {
+        margin-top: 50%;
+        width: 100%;
+        margin-left: 22%;
+    }
+    
+    .vidTwoTwo{
+        width: 95%;
+        height: 300%;
+    }
+    
+}
+/*  Large computer screen?*/
+@media screen and (min-width: 2560px){
+    .vidContainer {
+        display: grid;
+        width: 50%;
+        margin-left: 15%;
+        padding-bottom: 550px;
+    }
+    
+    .vidContainerOne {
+        margin-top: 5%;
+        width: 95%;
+        margin-left: 22%;
+    }
+    
+    .vidOne{
+        width: 100%;
+        height: 400%;
+    }
+    
+    .vidContainerTwo {
+        margin-top: 45%;
+        width: 100%;
+        margin-left: 22%;
+    }
+    
+    .vidTwoTwo{
+        width: 95%;
+        height: 400%;
+    }
+    
+}
