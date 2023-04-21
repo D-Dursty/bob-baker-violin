@@ -6,7 +6,7 @@ function Header() {
     return(
         <header>
             <div>
-                <h1>BOB BAKER </h1>
+                <h1>BOB BAKER VIOLIN </h1>
                  {/* <span><sub className='location'>Sisters, Oregon</sub></span> */}
             </div>
         </header>
