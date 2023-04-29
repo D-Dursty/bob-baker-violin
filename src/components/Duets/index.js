@@ -32,7 +32,7 @@ export default function Duets() {
           <p>
           <img className="brianImgTop" src={Brian}></img>
             <strong>Brian Odell (Vocals/Guitar):</strong>
-            <p>
+            <p className="bText">
               Brian and Bob first met when he was asked to sit in at a band
               rehearsal for the Brian Odell Band. Music styles clicked and Bob
               joined his band which still plays in the Pacific Northwest. Brian

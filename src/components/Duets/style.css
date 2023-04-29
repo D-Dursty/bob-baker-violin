@@ -45,6 +45,7 @@ display: none;
 
 .duetBio {
     margin:5%;
+    width: 100%;
     padding:3%;
     font-family: Cormorant Garamond;
     font-size: large;
@@ -52,7 +53,7 @@ display: none;
 
 .markBio {
     display: grid;
-    grid-template-columns: 240px;
+    grid-template-columns: 270px;
 
 }
 
@@ -63,7 +64,7 @@ display: none;
 
 .brianBio {
     display: grid;
-    grid-template-columns: 240px;
+    grid-template-columns: 270px;
 }
 
 .brianImg {
@@ -75,7 +76,15 @@ display: none;
     width: 100%;
     margin-left: 0%;
     margin-top: 0%;
-}}
+    margin-bottom: 9px;
+}
+strong {
+    margin-top: 5px;
+}
+.bText {
+    margin-top: 10px;
+}
+}
 
 @media screen and (min-width: 375px) and (max-width: 425px) {.duetsContainer {
     background-color: rgba(255, 251, 244, 0.9);

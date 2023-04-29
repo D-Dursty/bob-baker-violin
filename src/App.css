@@ -21,7 +21,7 @@
 }
 @media screen and (min-width: 315px) {
     .backgroundImg {
-        height: 80rem;
+        height: fit-content;
     }
 }
 
