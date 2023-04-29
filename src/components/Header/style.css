@@ -82,14 +82,14 @@ header h1{
 @media screen and (min-width: 768px) and (max-width: 1023px){
     header {
     display: block;
-    height: 16vh;    
+    height: 14vh;    
     background-color: rgb(40, 40, 32);
     font-family: Mukta Vaani;
 }
 
 header h1{
     margin-top: -2.8vh;
-    font-size: 60px;
+    font-size: 55px;
     color: rgb(134, 120, 69);
     margin-left: 1%;
    
