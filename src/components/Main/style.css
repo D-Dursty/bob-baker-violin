@@ -9,7 +9,7 @@
   width: 80%;
 }
 .mainPic {
-  width: 80%;
+  width: 8%;
   margin-left: 25%;
   margin-top: 15%;
 }
@@ -29,22 +29,22 @@
     display: grid;
     grid-template-columns: 280px;
     margin-top: 10px;
-    margin-left: 2.2%;
+    margin-left: 2.5%;
     background-color: rgba(255, 251, 244, 0.847);
     width: 95%;
   }
   .mainPic {
     width: 100%;
     align-self: start;
-    margin-left: 4%;
+    margin-left: 7%;
     margin-top: 5%;
   }
 
   .bioText {
     color: rgb(1, 1, 1);
     margin-top: -5%;
-    width: 97%;
-    margin-left: -4%;
+    width: 100%;
+    margin-left: -2%;
     font-family: Cormorant Garamond;
     font-size: larger;
   }
@@ -55,12 +55,12 @@
     display: grid;
     grid-template-columns: 340px;
     margin-top: 10px;
-    margin-left: 1.5%;
+    margin-left: 2.5%;
     background-color: rgba(255, 251, 244, 0.787);
     width: 91%;
   }
   .mainPic {
-    width: 90%;
+    width: 100%;
     align-self: start;
     margin-left: 3.2%;
     margin-top: 3%;
@@ -69,7 +69,7 @@
   .bioText {
     color: rgb(1, 1, 1);
     margin-top: -5%;
-    width: 90%;
+    width: 100%;
     margin-left: -5%;
     font-family: Cormorant Garamond;
     font-size: large;
@@ -81,12 +81,12 @@
     display: grid;
     grid-template-columns: 340px;
     margin-top: 10px;
-    margin-left: 2.5%;
+    margin-left: 6%;
     background-color: rgba(255, 251, 244, 0.883);
-    width: 81%;
+    width: 77%;
   }
   .mainPic {
-    width: 90%;
+    width: 95%;
     align-self: start;
     margin-left: 3.2%;
     margin-top: 3%;
@@ -95,7 +95,7 @@
   .bioText {
     color: rgb(1, 1, 1);
     margin-top: -5%;
-    width: 90%;
+    width: 95%;
     margin-left: -5%;
     font-family: Cormorant Garamond;
     font-size: larger;

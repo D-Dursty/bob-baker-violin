@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@200;400;800&family=Bebas+Neue&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300&family=Mukta+Vaani:wght@200;300;500&family=Murecho:wght@200;300;400&family=Raleway:ital,wght@0,200;0,300;0,500;1,200&display=swap');
 
-.main {
-    margin: 0;
-    padding: 0;
-}
+
 .backgroundImg {
     background-image: url('./utilities/bob-background.JPG');
     background-size: cover;
@@ -21,5 +18,10 @@
     padding-bottom: 40px;
  
 }
+}
+@media screen and (min-width: 315px) {
+    .backgroundImg {
+        height: 80rem;
+    }
 }
 
